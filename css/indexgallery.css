@@ -1,0 +1,28 @@
+.gallery {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    padding-top: 10px;
+    padding-right: 40px;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.gallery img {
+    padding-top: 30px;
+    width: 100%;
+    height: 300px; 
+   
+
+    border: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.3);
+  
+    padding: 10px;
+
+
+    object-fit: scale-down;
+    position: relative;
+}
